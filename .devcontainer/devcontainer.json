@@ -1,6 +1,7 @@
 {
 	"name": "Cruddur Configuration",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"postCreateCommand": "cd frontend-react-js && npm install",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 		"ghcr.io/devcontainers/features/aws-cli:1": {}

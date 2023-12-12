@@ -15,18 +15,10 @@
 				"ms-python.python"
 			],
 			"settings": {
-				"terminal.integrated.fontSize": 20,
-				"editor.fontSize": 20,
-				"workbench.colorTheme": "Default Dark+ Experimental"
+				"terminal.integrated.fontSize": 14,
+				"editor.fontSize": 14,
+				"workbench.colorTheme": "Default Dark Modern"
 			}
 		}
 	}
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "devcontainer"
 }

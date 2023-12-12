@@ -14,3 +14,9 @@ aws cloudwatch put-metric-alarm --cli-input-json file://aws/json/alarm_config.js
 
 export ROLLBAR_ACCESS_TOKEN="c282861eae804091bae7c93a2e5be7ae"
 gp env ROLLBAR_ACCESS_TOKEN="c282861eae804091bae7c93a2e5be7ae"
+
+env | grep HONEYCOMB
+HONEYCOMB_API_KEY=tiGhWOfIQQdeTtwnecP9KE
+HONEYCOMB_SERVER_NAME=Cruddur
+HONEYCOMB_SERVICE_NAME=backend-flask
+

@@ -1,7 +1,7 @@
 import './HomeFeedPage.css';
 import React from "react";
 
-import { Auth } from 'aws-amplify';
+import { Amplify } from 'aws-amplify';
 
 import DesktopNavigation  from '../components/DesktopNavigation';
 import DesktopSidebar     from '../components/DesktopSidebar';
@@ -14,6 +14,7 @@ import ReplyForm from '../components/ReplyForm';
 
 export default function HomeFeedPage() {
   const [activities, setActivities] = React.useState([]);
+  const Auth = Amplify.Auth;
   const [popped, setPopped] = React.useState(false);
   const [poppedReply, setPoppedReply] = React.useState(false);
   const [replyActivity, setReplyActivity] = React.useState({});

@@ -4,8 +4,7 @@ import {ReactComponent as Logo} from '../components/svg/logo.svg';
 import { Link } from "react-router-dom";
 
 // [TODO] Authenication
-import { Amplify } from 'aws-amplify';
-const Auth = Amplify.Auth;
+import { Auth } from 'aws-amplify';
 
 export default function SigninPage() {
 

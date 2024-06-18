@@ -5,8 +5,8 @@ pipeline {
         AWS_ACCESS_KEY_ID = credentials('aws-access-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
         AWS_REGION = 'eu-central-1'
-        S3_BUCKET_NAME = 'your-s3-bucket-name'
-        CLOUDFRONT_DISTRIBUTION_ID = 'your-cloudfront-distribution-id'
+        S3_BUCKET_NAME = 'www.biodon.click'
+        CLOUDFRONT_DISTRIBUTION_ID = 'https://d2iawijo82pvv8.cloudfront.net'
     }
 
     stages {
